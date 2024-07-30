@@ -1,0 +1,97 @@
+/* General reset */
+* {
+    margin:0;
+    padding:0;
+    font-family: Value, sans-serif;
+}
+
+.logo {
+    font-size:30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+
+.navdiv { 
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    height: 80px;
+    background-color: black;
+}
+
+.nav-links li {
+    list-style: none;
+    display: inline-block;  
+}
+
+.nav-links a {
+    text-decoration: none;
+    cursor:pointer;
+    text-transform: uppercase;
+    margin: 10px;
+    font-size: 17px;
+    color: white;  
+}
+
+a:hover {
+    color:rgb(255, 0, 0);
+}
+
+a:active {
+    color:green;
+}
+
+.background-image {
+    width: 100%;
+}
+
+h2 {
+    text-align:left;
+    margin: 5px;
+}
+
+.menu-div {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    text-align: center;   
+}
+
+.menu-div p {
+    margin:2px;
+}
+
+.menu-div-cappucino {
+    border: 5px solid;
+    margin:5px;
+}
+
+.menu-div-espresso {
+    border: 5px solid;
+    margin:5px;
+}
+
+.menu-div-americano {
+    border: 5px solid;
+    margin:5px;
+}
+
+.menu-div-mocha {
+    border: 5px solid;
+    margin:5px;
+}
+
+.menu-img-collection {
+    width:100%;
+}
+
+.about-div {
+    text-align:left;
+    padding: 5px;
+}
+
+.about-img-collection {
+    width: 50%;
+}
